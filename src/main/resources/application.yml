@@ -1,0 +1,9 @@
+spring.mvc.view:
+  prefix: /WEB-INF/view/
+  suffix: .jsp
+
+logging.level:
+  org.apache.tomcat: DEBUG
+  org.jetty.servlet: DEBUG
+  org.springframework: DEBUG
+  org.springframework.boot.autoconfigure.logging: INFO
