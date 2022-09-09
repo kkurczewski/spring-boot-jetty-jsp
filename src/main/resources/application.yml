@@ -4,6 +4,8 @@ spring.mvc.view:
 
 logging.level:
   org.apache.tomcat: DEBUG
+  org.apache.tomcat.util: INFO
   org.jetty.servlet: DEBUG
   org.springframework: DEBUG
+  org.springframework.beans.factory: INFO
   org.springframework.boot.autoconfigure.logging: INFO
