@@ -17,7 +17,7 @@ Key classes are `DispatcherServletAutoConfiguration` and `InternalResourceViewRe
 by `@SpringBootApplication`.
 
 In case of Jetty `tomcat-embed-core` is needed to resolve JSP view correctly but it also triggers Tomcat as a default
-container therefore explicit `ServletWebServerFactory` has to be defined.
+container therefore explicit `ServletWebServerFactory` has to be defined for Jetty.
 
 There is also [possibility](https://dzone.com/articles/spring-boot-with-jsps-in-executable-jars-1) to get rid of webapp
 folder, although verbose one and seems broken now.
