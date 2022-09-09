@@ -7,7 +7,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 public class MvcConfiguration {
-//    @Bean
+    @Bean
     public InternalResourceViewResolver configureViewResolvers() {
         var resolver = new InternalResourceViewResolver();
         resolver.setPrefix("/WEB-INF/view/");
