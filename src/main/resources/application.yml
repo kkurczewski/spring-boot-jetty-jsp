@@ -3,9 +3,6 @@ spring.mvc.view:
   suffix: .jsp
 
 logging.level:
-  org.apache.tomcat: DEBUG
-  org.apache.tomcat.util: INFO
   org.jetty.servlet: DEBUG
-  org.springframework: DEBUG
-  org.springframework.beans.factory: INFO
-  org.springframework.boot.autoconfigure.logging: INFO
+  org.springframework.web.servlet: DEBUG
+  root: INFO

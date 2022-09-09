@@ -1,4 +1,4 @@
-package com.howtodoinjava.app.controller;
+package com.howtodoinjava;
 
 import org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;

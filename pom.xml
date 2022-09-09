@@ -3,11 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.howtodoinjava</groupId>
     <artifactId>spring-boot-demo</artifactId>
-    <packaging>war</packaging>
-
-    <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-demo Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <version>1.0.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
