@@ -4,6 +4,7 @@
     <groupId>com.howtodoinjava</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0.0</version>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
